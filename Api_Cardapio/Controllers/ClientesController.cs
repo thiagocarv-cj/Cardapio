@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Dominio;
 using MediatR;
+using static Infraestrutura.RepositorioCliente;
 
 namespace Api_Cardapio.Controllers
 {
+    [Route("api/Clientes")]
+    [ApiController]
     public class ClientesController : ControllerBase
     {
         private readonly IMediator _mediator;

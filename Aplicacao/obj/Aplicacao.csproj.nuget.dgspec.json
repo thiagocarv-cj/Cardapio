@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Aplicacao\\Aplicacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Aplicacao\\Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Aplicacao\\Aplicacao.csproj",
         "projectName": "Aplicacao",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Aplicacao\\Aplicacao.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\Infraestrutura.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\Infraestrutura.csproj"
               }
             }
           }
@@ -49,16 +49,32 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
             }
           },
           "imports": [
@@ -77,18 +93,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,11 +140,27 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
             }
           },
           "imports": [
@@ -151,32 +183,32 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\Infraestrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\Infraestrutura.csproj",
         "projectName": "Infraestrutura",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\Infraestrutura.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -193,12 +225,12 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -206,7 +238,23 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
             }
           },
           "imports": [
@@ -225,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

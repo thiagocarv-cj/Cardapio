@@ -1,12 +1,6 @@
 ﻿using Infraestrutura;
 using MediatR;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System.Reflection;
 
 namespace Api_Cardapio
 {
@@ -23,10 +17,10 @@ namespace Api_Cardapio
         {
             // Configuração do Entity Framework Core
             services.AddDbContext<AplicacaoDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer("Server=DESKTOP-PDHCE1Q;Database=Cardapio;Integrated Security=true;TrustServerCertificate=true"));
 
             // Configuração do Mediator
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(typeof(Startup));
 
             // Outros serviços
             services.AddControllers();

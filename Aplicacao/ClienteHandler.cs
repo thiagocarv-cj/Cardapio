@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using MediatR;
+using static Infraestrutura.RepositorioCliente;
 
 namespace Aplicacao
 {
@@ -33,7 +34,7 @@ namespace Aplicacao
         public async Task<bool> Handle(AtualizarClienteCommand request, CancellationToken cancellationToken)
         {
             var clienteIndex = _clientes.FindIndex(c => c.Id == request.Id);
-            if (clienteIndex == -1)
+            if (clienteIndex <= 0)
             {
                 return false;
             }

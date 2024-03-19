@@ -1,56 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\api_cardapio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|solutionrelative:api_cardapio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\api_cardapio\\api_cardapio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|solutionrelative:api_cardapio\\api_cardapio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58310E0-E5C3-49FE-8D27-1F6FE43C5B28}|Aplicacao\\Aplicacao.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\aplicacao\\aplicacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B58310E0-E5C3-49FE-8D27-1F6FE43C5B28}|Aplicacao\\Aplicacao.csproj|solutionrelative:aplicacao\\aplicacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\api_cardapio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|solutionrelative:api_cardapio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\api_cardapio\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|solutionrelative:api_cardapio\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\api_cardapio\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC75678A-9E20-42B2-866A-344365E8C5D0}|Api_Cardapio\\Api_Cardapio.csproj|solutionrelative:api_cardapio\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58310E0-E5C3-49FE-8D27-1F6FE43C5B28}|Aplicacao\\Aplicacao.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\aplicacao\\clientehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58310E0-E5C3-49FE-8D27-1F6FE43C5B28}|Aplicacao\\Aplicacao.csproj|solutionrelative:aplicacao\\clientehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\infraestrutura\\aplicacaodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\cardapio\\infraestrutura\\aplicacaodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\aplicacaodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAE549A5-8C7B-42A3-881C-B60CAE265591}|Dominio\\Dominio.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAE549A5-8C7B-42A3-881C-B60CAE265591}|Dominio\\Dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\cardapio\\infraestrutura\\repositoriopedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\repositoriopedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\api_cardapio\\infraestrutura\\infraestrutura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\infraestrutura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\cardapio\\infraestrutura\\repositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\repositoriocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\cardapio\\infraestrutura\\repositoriocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\repositoriocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\lenovo\\source\\repos\\exercicios\\cardapio\\infraestrutura\\repositorioprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A70ED7-A818-4F01-B254-2AC96CCB4C6C}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\repositorioprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,132 +110,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Api_Cardapio.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Api_Cardapio.csproj",
-              "RelativeDocumentMoniker": "Api_Cardapio\\Api_Cardapio.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Api_Cardapio.csproj",
-              "RelativeToolTip": "Api_Cardapio\\Api_Cardapio.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-17T20:28:05.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\appsettings.json",
-              "RelativeDocumentMoniker": "Api_Cardapio\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\appsettings.json",
-              "RelativeToolTip": "Api_Cardapio\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-17T19:43:17.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClienteHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\ClienteHandler.cs",
-              "RelativeDocumentMoniker": "Aplicacao\\ClienteHandler.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\ClienteHandler.cs",
-              "RelativeToolTip": "Aplicacao\\ClienteHandler.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwAEAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T18:00:55.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AplicacaoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\AplicacaoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\AplicacaoDbContext.cs",
               "RelativeDocumentMoniker": "Infraestrutura\\AplicacaoDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\AplicacaoDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\AplicacaoDbContext.cs",
               "RelativeToolTip": "Infraestrutura\\AplicacaoDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:56:33.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Startup.cs",
-              "RelativeDocumentMoniker": "Api_Cardapio\\Startup.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Startup.cs",
-              "RelativeToolTip": "Api_Cardapio\\Startup.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAawBwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:51:12.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Aplicacao.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj",
-              "RelativeDocumentMoniker": "Aplicacao\\Aplicacao.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Aplicacao\\Aplicacao.csproj",
-              "RelativeToolTip": "Aplicacao\\Aplicacao.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-17T15:12:07.091Z",
+              "WhenOpened": "2024-03-19T21:56:44.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "Api_Cardapio\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "Api_Cardapio\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Title": "RepositorioProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioProdutos.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\RepositorioProdutos.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioProdutos.cs",
+              "RelativeToolTip": "Infraestrutura\\RepositorioProdutos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:14:33.726Z",
+              "WhenOpened": "2024-03-19T21:54:32.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositorioPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioPedidos.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\RepositorioPedidos.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioPedidos.cs",
+              "RelativeToolTip": "Infraestrutura\\RepositorioPedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T21:54:59.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositorioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioCliente.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\RepositorioCliente.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioCliente.cs",
+              "RelativeToolTip": "Infraestrutura\\RepositorioCliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T21:54:57.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Program.cs",
-              "RelativeDocumentMoniker": "Api_Cardapio\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Api_Cardapio\\Program.cs",
-              "RelativeToolTip": "Api_Cardapio\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:14:14.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "Dominio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Dominio\\Cliente.cs",
-              "RelativeToolTip": "Dominio\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:54:46.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Infraestrutura.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj",
-              "RelativeDocumentMoniker": "Infraestrutura\\Infraestrutura.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Api_Cardapio\\Infraestrutura\\Infraestrutura.csproj",
-              "RelativeToolTip": "Infraestrutura\\Infraestrutura.csproj",
+              "Title": "RepositorioCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioCategorias.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\RepositorioCategorias.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Exercicios\\Cardapio\\Infraestrutura\\RepositorioCategorias.cs",
+              "RelativeToolTip": "Infraestrutura\\RepositorioCategorias.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-17T15:11:45.969Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T21:54:55.569Z",
               "EditorCaption": ""
             }
           ]

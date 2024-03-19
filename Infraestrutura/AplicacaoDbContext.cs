@@ -11,10 +11,9 @@ namespace Infraestrutura
         }
 
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Configurações adicionais, como chaves primárias compostas, índices, etc.
-        }
     }
 }
