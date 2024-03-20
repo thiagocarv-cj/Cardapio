@@ -1,5 +1,7 @@
 ﻿using Dominio;
+using Infraestrutura;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using static Infraestrutura.RepositorioCliente;
 
 namespace Aplicacao
@@ -11,47 +13,54 @@ namespace Aplicacao
         IRequestHandler<AtualizarClienteCommand, bool>,
         IRequestHandler<RemoverClienteCommand, bool>
     {
-        private readonly List<Cliente> _clientes = new List<Cliente>();
-        private int _nextId = 1;
+        private readonly AplicacaoDbContext _context;
+
+        public ClienteHandler(AplicacaoDbContext context)
+        {
+            _context = context;
+        }
 
         public async Task<IEnumerable<Cliente>> Handle(ObterClientesQuery request, CancellationToken cancellationToken)
         {
-            return _clientes;
+            return await _context.Clientes.ToListAsync();
         }
 
         public async Task<Cliente> Handle(ObterClientePorIdQuery request, CancellationToken cancellationToken)
         {
-            return _clientes.Find(c => c.Id == request.Id);
+            return await _context.Clientes.FindAsync(request.Id);
         }
 
         public async Task<Cliente> Handle(AdicionarClienteCommand request, CancellationToken cancellationToken)
         {
-            var cliente = new Cliente { Id = _nextId++, Nome = request.Nome, Email = request.Email };
-            _clientes.Add(cliente);
+            var cliente = new Cliente { Nome = request.Nome, Email = request.Email };
+            _context.Clientes.Add(cliente);
+            await _context.SaveChangesAsync();
             return cliente;
         }
 
         public async Task<bool> Handle(AtualizarClienteCommand request, CancellationToken cancellationToken)
         {
-            var clienteIndex = _clientes.FindIndex(c => c.Id == request.Id);
-            if (clienteIndex <= 0)
-            {
-                return false;
-            }
-
-            _clientes[clienteIndex] = new Cliente { Id = request.Id, Nome = request.Nome, Email = request.Email };
-            return true;
-        }
-
-        public async Task<bool> Handle(RemoverClienteCommand request, CancellationToken cancellationToken)
-        {
-            var cliente = _clientes.Find(c => c.Id == request.Id);
+            var cliente = await _context.Clientes.FindAsync(request.Id);
             if (cliente == null)
             {
                 return false;
             }
 
-            _clientes.Remove(cliente);
+            cliente.Nome = request.Nome;
+            cliente.Email = request.Email;            
+            return true;
+        }
+
+        public async Task<bool> Handle(RemoverClienteCommand request, CancellationToken cancellationToken)
+        {
+            var cliente = await _context.Clientes.FindAsync(request.Id);
+            if (cliente == null)
+            {
+                return false;
+            }
+
+            _context.Clientes.Remove(cliente);
+            await _context.SaveChangesAsync();
             return true;
         }
     }
